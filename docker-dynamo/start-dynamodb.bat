@@ -1,0 +1,3 @@
+@ECHO OFF
+docker run -d -p 8000:8000 --rm -v c:\Development\docker-data\dynamodb\:/home/dynamodblocal/data/ --name dynamodb dynamodb
+set /p DUMMY=Hit ENTER to continue...
